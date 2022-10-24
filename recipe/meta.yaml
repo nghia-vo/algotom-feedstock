@@ -1,5 +1,5 @@
 {% set name = "algotom" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/algotom-{{ version }}.tar.gz
-  sha256: 304cc2dc04eef61b8ec5353db97a4a8c8dd5d8acd35380c6798d3585235e8e15
+  sha256: cb842b0eb726abc520356d8f1734582b3750741e00af93f0db6c41354a899d4f
 
 build:
   noarch: python
@@ -22,7 +22,7 @@ requirements:
     - h5py
     - joblib
     - numba >=0.50.1
-    - numpy >=1.17,<1.23
+    - numpy >=1.16
     - pillow
     - python >=3.7
     - pywavelets
@@ -38,11 +38,13 @@ test:
 
 about:
   home: https://github.com/algotom/algotom
-  summary: Data processing algorithms for tomography
+  summary: 'Data processing algorithms for tomography: https://doi.org/10.1364/OE.418448'
   license: Apache-2.0
   license_file: LICENSE
+  doc_url: https://algotom.readthedocs.io
 
 extra:
   recipe-maintainers:
     - algotom
+    - nghia-vo
    
