@@ -1,5 +1,5 @@
 {% set name = "algotom" %}
-{% set version = "1.2.0" %}
+{% set version = "1.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/algotom-{{ version }}.tar.gz
-  sha256: cb842b0eb726abc520356d8f1734582b3750741e00af93f0db6c41354a899d4f
+  sha256: 1f13682f57a56d06b06c5e969e16ecc04fa8f422c5fec2bf296b91b15509a956
 
 build:
   noarch: python
@@ -38,7 +38,7 @@ test:
 
 about:
   home: https://github.com/algotom/algotom
-  summary: 'Data processing algorithms for tomography: https://doi.org/10.1364/OE.418448'
+  summary: 'Data processing algorithms for tomography'
   license: Apache-2.0
   license_file: LICENSE
   doc_url: https://algotom.readthedocs.io
