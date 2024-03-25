@@ -1,5 +1,5 @@
 {% set name = "algotom" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/algotom-{{ version }}.tar.gz
-  sha256: 96a35de8cdffd4a9aef223f4dff0b717fb34a5d71a6ca2fd5c9c38331a5fc27f
+  sha256: 0cda310b90043a20a1803366f10e97eb155787e7bc71b7dbb8a359bcc4625a99
 
 build:
   noarch: python
