@@ -145,6 +145,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@algotom](https://github.com/algotom/)
 * [@nghia-vo](https://github.com/nghia-vo/)
 
